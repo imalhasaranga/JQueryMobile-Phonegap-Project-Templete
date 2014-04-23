@@ -1,0 +1,64 @@
+.toastclass{
+
+width: 90%;
+left: 0%;
+right: 0%;
+margin-left: 5%;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 5px;
+text-align: center;
+top: 47% !important;
+z-index: 100;
+}
+
+.toastclass h1{
+	font-size: 15px;
+	font-weight: normal;
+	letter-spacing:2px;
+	color: white;
+}
+
+.ss{
+	background: rgba(48, 117, 48, 0.89);
+}
+
+.ww{
+	background: rgba(160, 40, 40, 0.89);
+}
+
+
+.nn{
+	background: yellow;
+}
+
+
+.loadingimage{
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(27, 27, 27, 0.8);
+	z-index: 1000;
+	text-shadow: none;
+color: white;
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight: normal;
+	font-size: 18px;
+	/* display: table;*/
+	display: none;
+}
+
+.loadingimage img{
+	
+}
+
+
+.loadinmiddle{
+		display: table-cell;
+		vertical-align: middle;
+}
+.statusloading{
+	margin-top: 22px;
+}
