@@ -55,10 +55,11 @@ color: white;
 }
 
 
-.loadinmiddle{
-		display: table-cell;
-		vertical-align: middle;
+.loadingmesagedata{
+position: relative;
 }
+
+
 .statusloading{
 	margin-top: 22px;
 }
