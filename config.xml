@@ -25,7 +25,7 @@
     
 
     <preference name="phonegap-version"           value="3.3.0" />          <!-- all: current version of PhoneGap -->
-    <preference name="orientation"                value="portrait" />        <!-- all: default means both landscape and portrait are enabled  (default,portrait,landscape)-->
+    <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled  (default,portrait,landscape)-->
     <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
     <preference name="fullscreen"                 value="true" />           <!-- all: hides the status bar at the top of the screen -->
     <preference name="prerendered-icon"           value="true" />           <!-- ios: if icon is prerendered, iOS will not apply it's gloss to the app's icon on the user's home screen -->
@@ -64,11 +64,12 @@
     <!-- 
         <gap:plugin name="com.phonegap.plugins.barcodescanner" />
     -->
-
+    <!--
     <gap:plugin name="nl.x-services.plugins.launchmyapp">
         <param name="URL_SCHEME" value="vidituremobapp" />
     </gap:plugin>
     <gap:plugin name="nl.x-services.plugins.videocaptureplus" />
+    -->
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
@@ -82,6 +83,9 @@
     
     <!-- Define app splash screen for each platform. -->
 	<gap:splash src="res/Splash/SplashscreenforAndroid720x1280px.png"  gap:platform="android" gap:density="ldpi" />
+
+    <gap:splash src="res/Splash/SplashscreenforIOS640x1136px.png"       gap:platform="ios" gap:density="ldpi" />
+
     <!--
 	<gap:splash src="res/screen/android/screen-ldpi-portrait.png"  gap:platform="android" gap:density="ldpi" />
     <gap:splash src="res/screen/android/screen-mdpi-portrait.png"  gap:platform="android" gap:density="mdpi" />
