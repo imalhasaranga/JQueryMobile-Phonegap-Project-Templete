@@ -11,7 +11,6 @@ var sessionid = "";
 
 
 $(document).on('pageshow',function(){
-	middlecontent();
 	$(".homepagecont").css("visibility","visible");
 });
 
